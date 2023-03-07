@@ -51,7 +51,7 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
-    'whitenoise.middlewate.WhiteNoiseMiddleware',
+    'whitenoise.middlewae.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = "myapi.urls"
